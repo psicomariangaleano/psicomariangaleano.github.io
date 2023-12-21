@@ -106,6 +106,8 @@ body {
   display: flex;
   gap: 34px 16px;
   flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Project Cards */
@@ -139,6 +141,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-top: 40px; /* Puedes ajustar la cantidad de píxeles según sea necesario */
 }
 
 .project-header-image {
@@ -156,6 +159,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 34px;
+}
+
+#payment-methods-section {
+  margin-top: 40px; /* Puedes ajustar la cantidad de píxeles según sea necesario */
 }
 
 /* Project Gallery */

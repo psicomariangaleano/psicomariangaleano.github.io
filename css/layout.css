@@ -25,9 +25,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 96px;
+  text-align: justify;
 }
 
 
+.planes-y-precios-section {
+  text-align: left; /* Anula el justificado para esta clase */
+}
 
 
 /* Portfolio Header */
@@ -79,6 +83,19 @@ body {
 
 /* Project Section */
 
+
+.body-text.project-card-text.price {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  /* Ajusta el ancho según sea necesario */
+}
+
+.contact-info {
+  text-align: right;
+  margin: 0 auto;
+}
+
 #my-work-section {
   display: flex;
   flex-direction: column;
@@ -91,27 +108,27 @@ body {
   flex-wrap: wrap;
 }
 
-    /* Project Cards */
+/* Project Cards */
 
-    .project-card {
-      max-width: calc((100% - 32px) / 3);
-      display: flex;
-      flex-direction: column;
-      gap: 34px;
-    }
+.project-card {
+  max-width: calc((100% - 32px) / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
 
-    .project-card-text-container {
-      flex-direction: column;
-      display: flex;
-      gap: 16px
-    }
+.project-card-text-container {
+  flex-direction: column;
+  display: flex;
+  gap: 16px
+}
 
-    .project-image {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      object-position: center;
-    }
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
 
 
 
@@ -141,35 +158,35 @@ body {
   gap: 34px;
 }
 
-    /* Project Gallery */
+/* Project Gallery */
 
-    #project-gallery {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
+#project-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
-    .project-gallery-content {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 34px 16px;
-    }
+.project-gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px 16px;
+}
 
-    .gallery-image-container {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
+.gallery-image-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-    .gallery-image-container.half-width {
-      width: calc((100% - 16px) / 2);
-    }
+.gallery-image-container.half-width {
+  width: calc((100% - 16px) / 2);
+}
 
-    .gallery-image {
-      width: 100%;
-      height: auto;
-    }
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
 
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
@@ -219,5 +236,31 @@ body {
   }
 }
 
+/* Footer Styling */
+#footer {
+  width: 100%;
+  display: flex;
+  padding: 30px 50px;
+  justify-content: center; /* Cambiado de 'center' a 'space-between' */
+  align-items: center;
+  gap: 16px;
+}
 
+/* Información del Desarrollador Section */
+.developer-info {
+  text-align: right;
+  margin: 0 auto;
+}
 
+/* Small devices (portrait tablets and large phones, 800px and below) */
+@media only screen and (max-width: 800px) {
+  #footer {
+      padding: 20px 20px;
+      flex-direction: column; /* Cambiado de 'row' a 'column' */
+  }
+
+  .developer-info {
+      text-align: center;
+      margin-top: 20px;
+  }
+}

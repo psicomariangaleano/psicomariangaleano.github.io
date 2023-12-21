@@ -1,5 +1,9 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+footer {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .nav-title {
@@ -48,4 +52,10 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
+}
+
+.footer {
+    font-size: 14px; /* Puedes ajustar el tamaño de la fuente según tus preferencias */
+    font-weight: 500; /* Puedes ajustar el peso de la fuente según tus preferencias */
+    color: #333; /* Cambia el color según tus preferencias */
 }

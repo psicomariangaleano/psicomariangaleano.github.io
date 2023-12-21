@@ -1,123 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
 
-    <link rel="icon" href="./assets/images/logo transparente negro.png" />
-		<title>María Galeano - Consultorio de Psicología</title>
-    <meta name="description" content="Transformando vidas a través del bienestar emocional.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="utf-8">
 
-		<link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/typography.css">
-    <link rel="stylesheet" href="./css/utilities.css">
+  <link rel="icon" href="./assets/images/logo transparente negro.png" />
+  <title>María Galeano - Consultorio de Psicología</title>
+  <meta name="description" content="Transformando vidas a través del bienestar emocional.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<script defer src="./js/script.js"></script>
-	</head>
-	<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="./index.html">
-      
-        <span class="nav-title">Consultorio de Psicología</span>
-         
-        <a class="button" href="https://calendly.com/psicomariangaleano/cita-virtual">
-          <span class="button-text">Agenda tu cita</span>
-        </a>
+  <!-- Enlace al archivo CSS de fuentes -->
+  <link rel="stylesheet" href="./css/fonts.css">
+
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/typography.css">
+  <link rel="stylesheet" href="./css/utilities.css">
+
+  <script src="./js/load-env.js"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a class="nav-title-link" href="./index.html">
+
+      <span class="nav-title">Consultorio de Psicología</span>
+
+      <a class="button" href="https://calendly.com/psicomariangaleano/cita-virtual">
+        <span class="button-text">Agenda tu cita</span>
       </a>
+    </a>
+  </div>
+
+  <!-- MAIN PAGE CONTENT -->
+  <div id="main-content">
+
+    <!-- PORTFOLIO HEADER -->
+    <div id="portfolio-header">
+      <div id="portfolio-header-image-container">
+        <img src="./assets/images/marian.JPG" class="portfolio-header-image">
+      </div>
+
+      <div id="portfolio-header-text-container">
+        <div class="header-text">
+          <span class="main-title">María Angélica Galeano</span>
+          <h2>Tu Guía en el Camino hacia el Bienestar </h2>
+          <div class="body-text">Hola, soy María Angélica Galeano, Psicóloga egresada de la Universidad de la Sabana,
+            con un Máster en Terapia Familiar Sistémica otorgado por la Universidad Autónoma de Barcelona.
+            Me especializo en la psicoterapia y consejería psicológica individual, de pareja y familiar.</div>
+        </div>
+        <a class="button" id="my-work-link">
+          <span class="button-text">Planes y precios</span>
+          <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+        </a>
+      </div>
     </div>
 
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
+    <!-- ABOUT SECTION -->
+    <div id="about-section">
+      <span class="subheader-text">Acerca de mí</span>
+      <div class="about-section-content">
+        <div class="body-text">En mi práctica clínica, destaco por mi excepcional habilidad en la terapia psicológica.
+          Mi enfoque se basa en la empatía,
+          la comunicación efectiva y una ética profesional impecable. Mi experiencia abarca la gestión de programas de
+          salud mental, con énfasis en la prevención y
+          promoción en poblaciones vulnerables.</div>
+        <div class="body-text">He trabajado en la prevención del consumo de sustancias, conductas suicidas, intervención
+          en violencia intrafamiliar, abuso sexual y
+          la promoción de estilos de vida saludables. Además, como facilitadora y capacitadora en salud mental, brindo
+          formación en contextos clínicos y educativos,
+          apoyando a organizaciones en la promoción del bienestar emocional de sus equipos.</div>
 
-      <!-- PORTFOLIO HEADER -->
-      <div id="portfolio-header">
-        <div id="portfolio-header-image-container">
-          <img src="./assets/images/marian.JPG" class="portfolio-header-image">
-        </div>
+        <div class="body-text">Estoy aquí para ser tu guía en el camino hacia la transformación a través de la terapia
+          individual. ¡Contáctame y comencemos este viaje juntos!</div>
+      </div>
+    </div>
 
-        <div id="portfolio-header-text-container">
-            <div class="header-text">
-              <span class="main-title">María Angélica Galeano</span>
-              <h2>Tu Guía en el Camino hacia el Bienestar </h2>
-              <div class="body-text">Hola, soy María Angélica Galeano, Psicóloga egresada de la Universidad de la Sabana, con un Máster en Terapia Familiar Sistémica otorgado por la Universidad Autónoma de Barcelona. 
-                Me especializo en la psicoterapia y consejería psicológica individual, de pareja y familiar.</div>
+    <!-- PROJECTS / MY WORK SECTION -->
+    <div id="my-work-section" class="planes-y-precios-section">
+
+      <span class="subheader-text">Planes y precios</span>
+
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="./assets/images/individual.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="project-title">Terapia individual</div>
+            <div class="body-text project-card-text">Abordaje personalizado para el crecimiento personal y manejo de
+              desafíos emocionales.</div>
+            <br>
+            <div class="body-text project-card-text"><strong>1 hora:</strong> $80.000</div>
+            <div class="body-text project-card-text"><strong>Pack 3 horas:</strong> $210.000 (Ahorro de $30.000) </div>
+            <div class="body-text project-card-text"><strong>Pack 6 horas:</strong> $450.000 (Ahorro de $90.000) </div>
+            <div class="body-text project-card-text"><strong>Pack 10 horas:</strong> $700.000 (Ahorro de $100.000)
             </div>
-            <a class="button" id="my-work-link">
-              <span class="button-text">Conoce más de mi trabajo</span> 
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./assets/images/pareja.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="project-title">Terapia de pareja</div>
+            <div class="body-text project-card-text">Fortalecimiento de la relación, comunicación efectiva y resolución
+              de conflictos en pareja.</div>
+            <br>
+            <div class="body-text project-card-text price"><strong>1 hora:</strong> $140.000 COP</div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./assets/images/familia.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="project-title">Terapia de familia</div>
+            <div class="body-text project-card-text">Enfoque integral para mejorar la dinámica familiar y construir
+              relaciones saludables.</div>
+            <br>
+            <br>
+            <div class="body-text project-card-text price"><strong>1 hora:</strong> $180.000 COP</div>
+          </div>
         </div>
       </div>
 
-      <!-- ABOUT SECTION -->
-      <div id="about-section">
-        <span class="subheader-text">Acerca de mí</span>
-        <div class="about-section-content">
-          <div class="body-text">En mi práctica clínica, destaco por mi excepcional habilidad en la terapia psicológica. Mi enfoque se basa en la empatía, 
-            la comunicación efectiva y una ética profesional impecable. Mi experiencia abarca la gestión de programas de salud mental, con énfasis en la prevención y 
-            promoción en poblaciones vulnerables.</div>
-          <div class="body-text">He trabajado en la prevención del consumo de sustancias, conductas suicidas, intervención en violencia intrafamiliar, abuso sexual y 
-            la promoción de estilos de vida saludables. Además, como facilitadora y capacitadora en salud mental, brindo formación en contextos clínicos y educativos,
-             apoyando a organizaciones en la promoción del bienestar emocional de sus equipos.</div>
-
-          <div class="body-text">Estoy aquí para ser tu guía en el camino hacia la transformación a través de la terapia individual. ¡Contáctame y comencemos este viaje juntos!</div>
-        </div>
-      </div>
-
-      <!-- PROJECTS / MY WORK SECTION -->
-      <div id="my-work-section">
-      
-        <span class="subheader-text">Mi trabajo</span>
-
-        <div class="projects-container">
-          <div class="project-card">
-            <img src="./assets/images/individual.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="project-title">Terapia individual</div>
-              <div class="body-text project-card-text">Abordaje personalizado para el crecimiento personal y manejo de desafíos emocionales.</div>
-            </div>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/pareja.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="project-title">Terapia de pareja</div>
-              <div class="body-text project-card-text">Fortalecimiento de la relación, comunicación efectiva y resolución de conflictos en pareja.</div>
-            </div>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/familia.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="project-title">Terapia de familia</div>
-              <div class="body-text project-card-text">Enfoque integral para mejorar la dinámica familiar y construir relaciones saludables.</div>
-            </div>
-          </div>
-        </div>
-
-
+      <br>
+      <br>
+      <br>
       <!-- PROJECT HEADER -->
       <div id="project-header">
-        <br>
-        <br>
-        <br>
-      <div class="main-title">El consultorio</div>
-      <div class="body-text">Bienvenido a nuestro cálido y acogedor Consultorio Psicológico, donde la tranquilidad se encuentra con el bienestar emocional. Nuestro espacio está diseñado para ofrecerte un entorno seguro y cómodo durante tu proceso de transformación y crecimiento personal.</div>
-      <image class="project-header-image" src="../assets/images/IMG_1982.jpeg">
-    </div>
-
-    <!-- PROJECT DETAILS -->
-    <div id="project-details">
-      
-      <div class="project-details-content">
-        <div class="body-text">En el consultorio, nos esforzamos por proporcionar un ambiente propicio para la reflexión y el desarrollo personal. Nuestro objetivo es crear un espacio donde te sientas apoyado y comprendido en cada paso de tu viaje hacia el bienestar emocional.</div>
+        <div class="main-title">El consultorio</div>
+        <div class="body-text">Bienvenido a nuestro cálido y acogedor Consultorio Psicológico, donde la tranquilidad se
+          encuentra con el bienestar emocional. Nuestro espacio está diseñado para ofrecerte un entorno seguro y cómodo
+          durante tu proceso de transformación y crecimiento personal.</div>
+        <image class="project-header-image" src="../assets/images/IMG_1982.jpeg">
       </div>
-    </div>
 
-    <!-- IMAGE GALLERY -->
-    <div id="project-gallery">
-    
-      <div class="subheader-text">Galería de imágenes</div>
-      <div class="project-gallery-content">
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+
+        <div class="project-details-content">
+          <div class="body-text">En el consultorio, nos esforzamos por proporcionar un ambiente propicio para la
+            reflexión y el desarrollo personal. Nuestro objetivo es crear un espacio donde te sientas apoyado y
+            comprendido en cada paso de tu viaje hacia el bienestar emocional.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+
+        <div class="subheader-text">Galería de imágenes</div>
+        <div class="project-gallery-content">
           <div class="gallery-image-container half-width">
             <img src="../assets/images/IMG_1986.jpeg" class="gallery-image">
             <span class="image-caption">Un refugio de serenidad para tu bienestar emocional.</span>
@@ -130,30 +159,40 @@
             <img src="../assets/images/IMG_1983.jpeg" class="gallery-image">
             <span class="image-caption">Bienvenido a un entorno de apoyo y crecimiento.</span>
           </div>
+        </div>
       </div>
-    </div>
-        
-      </div>
-    </div>
 
+    </div>
+  </div>
 
-    <!-- FOOTER -->
+  <!-- Footer -->
+  <footer id="footer">
     <div id="footer">
 
       <a class="icon-link" target="_blank" href="https://www.instagram.com/psicomariangaleano/">
-        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
+        <image src="./assets/icons/instagram.svg" class="footer-icon" />
       </a>
 
 
       <a class="icon-link" target="_blank" href="https://wa.link/fazr39">
-        <image src="./assets/icons/wa256.svg" class="footer-icon"/>
+        <image src="./assets/icons/wa256.svg" class="footer-icon" />
       </a>
-      
+
 
       <a class="icon-link" href="mailto:psicomariangaleano@gmail.com">
-        <image src="./assets/icons/mail.svg" class="footer-icon"/>
+        <image src="./assets/icons/mail.svg" class="footer-icon" />
       </a>
     </div>
 
-	</body>
+    <div class="developer-info">
+      <p class="footer">&copy; 2023 | Desarrollado por <a
+          href="https://www.linkedin.com/in/sebastianfrasic/" target="_blank">Juan Sebastián Frásica</a></p>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
 </html>

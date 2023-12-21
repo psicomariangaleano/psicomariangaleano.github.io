@@ -18,6 +18,9 @@
 
   <script src="./js/load-env.js"></script>
   <script defer src="./js/script.js"></script>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=window.env.GOOGLE_MAPS_API_KEY&callback=initMap"
+    type="text/javascript"></script>
+  <script defer src="./js/map.js"></script>
 </head>
 
 <body>
@@ -162,6 +165,13 @@
         </div>
       </div>
 
+      <br>
+      <div id="project-header">
+        <div class="main-title">Ubicación</div>
+        <div class="body-text">La ubicación del consultorio de psicología es en la <strong> Carrera 14 # 14-20 </strong>
+          en la ciudad de <strong>Zipaquirá, </strong> Cundinamarca. Colombia </div>
+        <image class="project-header-image" src="../assets/images/mapa.png">
+      </div>
     </div>
   </div>
 
@@ -185,8 +195,8 @@
     </div>
 
     <div class="developer-info">
-      <p class="footer">&copy; 2023 | Desarrollado por <a
-          href="https://www.linkedin.com/in/sebastianfrasic/" target="_blank">Juan Sebastián Frásica</a></p>
+      <p class="footer">&copy; 2023 | Desarrollado por <a href="https://www.linkedin.com/in/sebastianfrasic/"
+          target="_blank">Juan Sebastián Frásica</a></p>
     </div>
   </footer>
 

@@ -4,10 +4,12 @@ const loadEnv = async () => {
     const text = await response.text();
     const lines = text.split('\n');
     lines.forEach(line => {
-      const [key, value] = line.split('=');
-      window.env[key.trim()] = value.trim();
+        const [key, value] = line.split('=');
+        window.env[key.trim()] = value.trim();
     });
-  };
-  
-  loadEnv();
-  
+
+    // Usa window.env en lugar de process.env
+    window.env[key.trim()] = value.trim();
+};
+
+loadEnv();

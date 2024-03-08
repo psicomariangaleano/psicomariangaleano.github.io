@@ -12,6 +12,11 @@
   height: 50px;
 }
 
+.footer-icon-facebook {
+  width: 57px;
+  height: 57px;
+}
+
 a.icon-link {
   transition: transform 200ms ease-in-out;
 }

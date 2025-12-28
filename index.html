@@ -1,247 +1,593 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-CO">
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" href="./assets/images/logo transparente negro.png" />
-  <title>Psicóloga María Angélica Galeano - Atención psicológica en Zipaquirá</title>
-  <meta name="description" content="María Angélica Galeano, Psicóloga en Zipaquirá. Transformando vidas a través del bienestar emocional. Terapia individual, de pareja y familiar.">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- SEO Meta Tags -->
+  <title>Psicóloga en Zipaquirá y virtual internacional | María Angélica Galeano</title>
+  <meta name="description"
+    content="Psicóloga clínica en Zipaquirá con atención virtual internacional. Especialista en terapia individual, de pareja y familiar para adolescentes y adultos. Máster en Terapia Sistémica.">
+  <meta name="keywords"
+    content="psicólogo Zipaquirá, terapia virtual Colombia, psicóloga online internacional, terapia de pareja Zipaquirá, terapia adolescentes adultos">
+  <meta name="author" content="María Angélica Galeano">
+  <meta name="robots" content="index, follow">
 
-  <meta name="keywords" content="Psicólogo en Zipaquirá, Psicología Zipaquirá, Terapia psicológica Zipaquirá, Bienestar emocional, María Angélica Galeano, Psicologa Zipaquirá">
+  <!-- Geo Tags -->
+  <meta name="geo.region" content="CO-CUN">
+  <meta name="geo.placename" content="Zipaquirá">
+  <meta name="geo.position" content="5.029379;-73.999092">
+  <meta name="ICBM" content="5.029379, -73.999092">
 
-  <!-- Enlace al archivo CSS de fuentes -->
-  <link rel="stylesheet" href="./css/fonts.css">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Psicóloga María Angélica Galeano | Zipaquirá y virtual">
+  <meta property="og:description"
+    content="Terapia psicológica presencial en Zipaquirá y virtual internacional. Especialista en terapia individual, de pareja y familiar.">
+  <meta property="og:image" content="./assets/images/marian.JPG">
+  <meta property="og:url" content="https://www.psicomariangaleano.com">
 
+  <!-- Links -->
+  <link rel="canonical" href="https://www.psicomariangaleano.com">
+  <link rel="icon" href="./assets/images/logo transparente negro.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/variables.css">
   <link rel="stylesheet" href="./css/layout.css">
-  <link rel="stylesheet" href="./css/typography.css">
-  <link rel="stylesheet" href="./css/utilities.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/responsive.css">
 
-  <script defer src="./js/script.js"></script>
-
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Psychologist",
+    "name": "María Angélica Galeano Fetecua",
+    "image": "./assets/images/marian.JPG",
+    "description": "Psicóloga clínica en Zipaquirá especializada en terapia individual, de pareja y familiar para adolescentes y adultos. Máster en Terapia Familiar Sistémica.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Carrera 14 #14-20",
+      "addressLocality": "Zipaquirá",
+      "addressRegion": "Cundinamarca",
+      "postalCode": "250251",
+      "addressCountry": "CO"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "5.029379",
+      "longitude": "-73.999092"
+    },
+    "url": "https://www.psicomariangaleano.com",
+    "telephone": "+57-300-000-0000",
+    "email": "psicomariangaleano@gmail.com",
+    "priceRange": "$100.000 - $190.000",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    "sameAs": [
+      "https://www.facebook.com/Psicomariangaleano",
+      "https://www.instagram.com/psicomariangaleano/",
+      "https://www.linkedin.com/in/maria-angelica-galeano"
+    ],
+    "areaServed": [
+      {"@type": "City", "name": "Zipaquirá"},
+      {"@type": "Country", "name": "Colombia"},
+      {"@type": "Country", "name": "United States"},
+      {"@type": "Country", "name": "Spain"}
+    ]
+  }
+  </script>
 </head>
 
 <body>
+
   <!-- NAVBAR -->
-  <div class="navbar">
-    <a class="nav-title-link" href="./index.html">
-
-      <span class="nav-title">Consultorio de Psicología</span>
-
-      <a class="button" href="https://calendly.com/psicomariangaleano/agenda-tu-cita">
-        <span class="button-text">Agenda tu cita</span>
-      </a>
-    </a>
-  </div>
-
-  <!-- MAIN PAGE CONTENT -->
-  <div id="main-content">
-
-    <!-- PORTFOLIO HEADER -->
-    <div id="portfolio-header">
-      <div id="portfolio-header-image-container">
-        <img src="./assets/images/marian.JPG" class="portfolio-header-image" alt="María Angélica Galeano Psicóloga en Zipaquirá">
+  <header class="navbar" role="banner">
+    <div class="container navbar-content">
+      <div class="nav-brand">
+        <img src="./assets/images/logo transparente negro.png" alt="Logo psicóloga María Angélica Galeano"
+          class="logo-img" width="45" height="45">
+        <span class="nav-title">María Angélica Galeano</span>
       </div>
 
-      <div id="portfolio-header-text-container">
-        <div class="header-text">
-          <h1 class="main-title">María Angélica Galeano</h1>
-          <h2>Tu Guía en el Camino hacia el Bienestar </h2> <strong></strong>
-          <div class="body-text">Hola, soy María Angélica Galeano, Psicóloga egresada de la <strong> Universidad de La
-              Sabana</strong>, con un <strong>Máster en Terapia Familiar Sistémica </strong>otorgado por la
-            <strong>Universidad Autónoma de Barcelona</strong>.
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="#servicios" class="nav-item">Servicios</a>
+        <a href="#sobre-mi" class="nav-item">Sobre mí</a>
+        <a href="#virtual-global" class="nav-item">Terapia virtual</a>
+        <a href="#ubicacion" class="nav-item">Ubicación</a>
+      </nav>
+
+      <a class="button btn-primary" href="https://calendly.com/psicomariangaleano/agenda-tu-cita" target="_blank"
+        rel="noopener">
+        Agendar cita
+      </a>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="section-padding hero-section" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-layout">
+          <div class="hero-text-container">
+            <h1 id="hero-title" class="main-title">Tu bienestar emocional comienza aquí</h1>
+            <p class="subtitle">Psicóloga clínica en Zipaquirá y terapia virtual internacional</p>
+
+            <p class="body-text">
+              Hola, soy <a href="https://www.linkedin.com/in/maria-angelica-galeano-fetecua-4581b372/" target="_blank"
+                rel="noopener" class="text-link">María Angélica Galeano</a>, psicóloga egresada de la
+              <strong>Universidad de La Sabana</strong> con <strong>máster en <a
+                  href="https://psicologiaymente.com/clinica/terapia-sistemica" target="_blank" rel="noopener"
+                  class="text-link-secondary">terapia familiar sistémica</a></strong> otorgado por la
+              <strong>Universidad Autónoma de Barcelona</strong>.
+            </p>
+
+            <p class="body-text">
+              <strong>Especializada en atención para adolescentes y adultos.</strong> Mi enfoque combina la empatía
+              profesional con técnicas terapéuticas efectivas para tu crecimiento personal.
+            </p>
+
+            <div class="hero-badges">
+              <span class="badge">
+                <span class="badge-icon" aria-hidden="true">🏠</span>
+                Presencial en Zipaquirá
+              </span>
+              <span class="badge">
+                <span class="badge-icon" aria-hidden="true">💻</span>
+                Virtual Colombia
+              </span>
+              <span class="badge">
+                <span class="badge-icon" aria-hidden="true">🌍</span>
+                Virtual internacional
+              </span>
+            </div>
+
+            <a href="#servicios" class="button btn-outline">
+              Ver servicios y precios →
+            </a>
           </div>
-          <br>
-          <div class="body-text"> Me especializo en la psicoterapia individual, de pareja y de familia; con énfasis en
-            <strong> psicología clínica</strong>.
+
+          <div class="hero-image-container">
+            <img src="./assets/images/marian.JPG" class="hero-image"
+              alt="María Angélica Galeano, psicóloga clínica especializada en terapia para adolescentes y adultos"
+              width="450" height="450">
           </div>
         </div>
-        <a class="button" id="my-work-link">
-          <span class="button-text">Planes y precios</span>
-          <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-        </a>
       </div>
-    </div>
+    </section>
+
+    <!-- VIRTUAL THERAPY SECTION -->
+    <section id="virtual-global" class="section-padding bg-gradient" aria-labelledby="virtual-title">
+      <div class="container">
+        <div class="virtual-global">
+          <h2 id="virtual-title" class="section-title">Terapia virtual para Colombia y el mundo 🌍</h2>
+          <p class="section-subtitle">
+            Atiendo pacientes en <strong>toda Colombia</strong> y en <strong>más de 9 países</strong> a través de
+            sesiones virtuales seguras y confidenciales
+          </p>
+
+          <div class="countries-grid">
+            <div class="country-item">
+              <img src="https://flagcdn.com/w40/co.png" alt="Bandera de Colombia" class="flag-icon" width="40"
+                height="30" loading="lazy">
+              <span class="country-name">Colombia</span>
+            </div>
+            <div class="country-item">
+              <img src="https://flagcdn.com/w40/us.png" alt="Bandera de Estados Unidos" class="flag-icon" width="40"
+                height="30" loading="lazy">
+              <span class="country-name">Estados Unidos</span>
+            </div>
+            <div class="country-item">
+              <img src="https://flagcdn.com/w40/es.png" alt="Bandera de España" class="flag-icon" width="40" height="30"
+                loading="lazy">
+              <span class="country-name">España</span>
+            </div>
+            <div class="country-item">
+              <img src="https://flagcdn.com/w40/ca.png" alt="Bandera de Canadá" class="flag-icon" width="40" height="30"
+                loading="lazy">
+              <span class="country-name">Canadá</span>
+            </div>
+            <div class="country-item">
+              <img src="https://flagcdn.com/w40/fr.png" alt="Bandera de Francia" class="flag-icon" width="40"
+                height="30" loading="lazy">
+              <span class="country-name">Francia</span>
+            </div>
+            <div class="country-item">
+              <img src="https://flagcdn.com/w40/gb.png" alt="Bandera de Inglaterra" class="flag-icon" width="40"
+                height="30" loading="lazy">
+              <span class="country-name">Inglaterra</span>
+            </div>
+            <div class="country-item">
+              <img src="https://flagcdn.com/w40/au.png" alt="Bandera de Australia" class="flag-icon" width="40"
+                height="30" loading="lazy">
+              <span class="country-name">Australia</span>
+            </div>
+            <div class="country-item">
+              <img src="https://flagcdn.com/w40/do.png" alt="Bandera de República Dominicana" class="flag-icon"
+                width="40" height="30" loading="lazy">
+              <span class="country-name">Rep. Dominicana</span>
+            </div>
+            <div class="country-item">
+              <img src="https://flagcdn.com/w40/br.png" alt="Bandera de Brasil" class="flag-icon" width="40" height="30"
+                loading="lazy">
+              <span class="country-name">Brasil</span>
+            </div>
+            <div class="country-item">
+              <img src="https://flagcdn.com/w40/vn.png" alt="Bandera de Vietnam" class="flag-icon" width="40"
+                height="30" loading="lazy">
+              <span class="country-name">Vietnam</span>
+            </div>
+          </div>
+
+          <p class="body-text text-center" style="margin-top: 30px;">
+            <strong>Sesiones virtuales en español</strong> desde cualquier lugar de Colombia o el mundo. Horarios
+            flexibles adaptados a tu zona horaria para adolescentes y adultos.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <!-- ABOUT SECTION -->
-    <div id="about-section">
-      <span class="subheader-text">Acerca de mí</span>
-      <div class="about-section-content">
-        <div class="body-text">
-          En mi práctica clínica, destaco mi excepcional habilidad en la terapia psicológica, especialmente con
-          adolescentes y adultos. Mi enfoque se basa en la empatía, la comunicación efectiva y una ética profesional
-          impecable. Entiendo que puedes estar experimentando:
-        </div>
-        <ul>
-          <li>Estrés, ansiedad o depresión debido a transiciones importantes en la vida, como cambios de carrera,
-            relaciones o etapas de vida.</li>
-          <li>Un vacío que afecta tu bienestar, dificultando la conexión entre tu salud mental y tu espiritualidad.</li>
-          <li>Deseo de vivir plenamente para lograr una mejor calidad de vida, tanto para ti como para aquellos que te
-            rodean.</li>
+    <section id="sobre-mi" class="section-padding" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title" class="section-title">¿Por qué iniciar terapia psicológica?</h2>
+        <p class="section-subtitle">
+          En mi práctica clínica con adolescentes y adultos, me enfoco en generar cambios reales y duraderos
+        </p>
+
+        <ul class="benefit-list">
+          <li><strong>Ansiedad o estrés:</strong> cambios laborales, rupturas de pareja, decisiones importantes o
+            incertidumbre sobre el futuro.</li>
+          <li><strong>Desconexión emocional:</strong> sensación de vacío interior que afecta tu propósito de vida y
+            bienestar general.</li>
+          <li><strong>Conflictos relacionales:</strong> dificultades para comunicarte efectivamente con tu pareja,
+            familia o entorno laboral.</li>
+          <li><strong>Crecimiento personal:</strong> deseo de autoconocimiento profundo y desarrollo de tu máximo
+            potencial.</li>
+          <li><strong>Transiciones de vida:</strong> adaptación a cambios importantes como adolescencia, adultez joven,
+            cambios de carrera o etapas vitales.</li>
         </ul>
-        <div class="body-text">
-          Es fundamental reconocer que no estás solo en estas emociones. Vivimos en un mundo lleno de desafíos y
-          presiones que afectan a todos. Por esta razón, te invito a descubrir herramientas prácticas que puedes aplicar
-          en tu vida, transformando así tu bienestar.
+
+        <p class="body-text text-center highlight-text">
+          <strong>No estás solo en este proceso.</strong> Juntos construiremos herramientas prácticas y efectivas para
+          transformar tu bienestar emocional.
+        </p>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="servicios" class="section-padding bg-light" aria-labelledby="services-title">
+      <div class="container">
+        <h2 id="services-title" class="section-title">Planes de terapia y precios 2026</h2>
+        <p class="section-subtitle">
+          Modalidad <strong>presencial en Zipaquirá</strong> o <strong>virtual</strong> desde cualquier lugar del mundo
+        </p>
+
+        <div class="services-grid">
+          <!-- INDIVIDUAL THERAPY -->
+          <article class="service-card">
+            <img src="./assets/images/individual.jpg" class="service-img"
+              alt="Terapia psicológica individual para adolescentes y adultos" width="400" height="220" loading="lazy">
+            <div class="service-content">
+              <h3 class="service-title">Terapia individual</h3>
+              <p class="service-desc">
+                Espacio personal y confidencial para el manejo de ansiedad, depresión, duelo y crecimiento emocional.
+                Sesiones adaptadas a adolescentes y adultos.
+              </p>
+              <div class="pricing-list">
+                <div class="price-item">
+                  <span class="price-label">1 sesión</span>
+                  <div class="price-value-wrapper">
+                    <span class="price-value">$100.000</span>
+                  </div>
+                </div>
+                <div class="price-item">
+                  <span class="price-label">Pack 3 sesiones</span>
+                  <div class="price-value-wrapper">
+                    <span class="price-value">$270.000</span>
+                    <span class="savings-badge">-$30.000</span>
+                  </div>
+                </div>
+                <div class="price-item">
+                  <span class="price-label">Pack 6 sesiones</span>
+                  <div class="price-value-wrapper">
+                    <span class="price-value">$540.000</span>
+                    <span class="savings-badge">-$60.000</span>
+                  </div>
+                </div>
+                <div class="price-item">
+                  <span class="price-label">Pack 10 sesiones</span>
+                  <div class="price-value-wrapper">
+                    <span class="price-value">$850.000</span>
+                    <span class="savings-badge">-$150.000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- COUPLE THERAPY -->
+          <article class="service-card">
+            <img src="./assets/images/pareja.jpg" class="service-img" alt="Terapia de pareja y resolución de conflictos"
+              width="400" height="220" loading="lazy">
+            <div class="service-content">
+              <h3 class="service-title">Terapia de pareja</h3>
+              <p class="service-desc">
+                Fortalecimiento del vínculo afectivo, comunicación efectiva y resolución constructiva de conflictos.
+                Reconstruyan juntos una relación saludable.
+              </p>
+              <div class="pricing-list">
+                <div class="price-item">
+                  <span class="price-label">1 sesión</span>
+                  <div class="price-value-wrapper">
+                    <span class="price-value">$160.000</span>
+                  </div>
+                </div>
+                <div class="price-item">
+                  <span class="price-label">Pack 3 sesiones</span>
+                  <div class="price-value-wrapper">
+                    <span class="price-value">$450.000</span>
+                    <span class="savings-badge">-$30.000</span>
+                  </div>
+                </div>
+                <div class="price-item">
+                  <span class="price-label">Pack 6 sesiones</span>
+                  <div class="price-value-wrapper">
+                    <span class="price-value">$900.000</span>
+                    <span class="savings-badge">-$60.000</span>
+                  </div>
+                </div>
+                <div class="price-item">
+                  <span class="price-label">Pack 10 sesiones</span>
+                  <div class="price-value-wrapper">
+                    <span class="price-value">$1.450.000</span>
+                    <span class="savings-badge">-$150.000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- FAMILY THERAPY -->
+          <article class="service-card">
+            <img src="./assets/images/familia.jpg" class="service-img" alt="Terapia familiar sistémica" width="400"
+              height="220" loading="lazy">
+            <div class="service-content">
+              <h3 class="service-title">Terapia familiar</h3>
+              <p class="service-desc">
+                Mejora la dinámica familiar, resuelve conflictos intergeneracionales y construye relaciones más
+                saludables entre todos los miembros.
+              </p>
+              <div class="pricing-list">
+                <div class="price-item">
+                  <span class="price-label">1 sesión</span>
+                  <div class="price-value-wrapper">
+                    <span class="price-value">$190.000</span>
+                  </div>
+                </div>
+                <div class="price-item invisible">
+                  <span class="price-label">-</span>
+                  <span class="price-value">-</span>
+                </div>
+                <div class="price-item invisible">
+                  <span class="price-label">-</span>
+                  <span class="price-value">-</span>
+                </div>
+                <div class="price-item invisible">
+                  <span class="price-label">-</span>
+                  <span class="price-value">-</span>
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
-        <div class="body-text">Estoy aquí para ser tu guía en el camino hacia la transformación a través de la terapia.
-          ¡Contáctame y comencemos este viaje juntos!</div>
-      </div>
-    </div>
 
-    <!-- PROJECTS / MY WORK SECTION -->
-    <div id="my-work-section" class="planes-y-precios-section">
-
-      <span class="subheader-text">Planes y precios</span>
-      <div class="body-text">
-        Puedes <a href="https://calendly.com/psicomariangaleano/agenda-tu-cita" target="_blank"
-          rel="noopener noreferrer">
-          agendar</a> tu cita de manera <strong>presencial </strong>o <strong>virtual</strong>.
-      </div>
-
-      <div class="projects-container">
-        <div class="project-card">
-          <img src="./assets/images/individual.jpg" class="project-image">
-          <div class="project-card-text-container">
-            <div class="project-title">Terapia individual</div>
-            <div class="body-text project-card-text">Abordaje personalizado para el crecimiento personal y manejo de
-              desafíos emocionales.</div>
+        <!-- PAYMENT METHODS -->
+        <div class="payment-section">
+          <h3 class="payment-title">Medios de pago aceptados</h3>
+          <div class="payment-grid">
+            <div class="payment-item">💵 Efectivo</div>
+            <div class="payment-item">📱 Nequi / Daviplata</div>
+            <div class="payment-item">💳 Llave Bre-B</div>
+            <div class="payment-item">🏦 Transferencia bancaria</div>
+            <div class="payment-item">💳 Tarjetas débito/crédito*</div>
           </div>
-          <div class="body-text project-card-text"><strong>1 sesión:</strong> $90.000</div>
-          <div class="body-text project-card-text"><strong>Pack 3 sesiones:</strong> $250.000 (Ahorro de $20.000) </div>
-          <div class="body-text project-card-text"><strong>Pack 6 sesiones:</strong> $480.000 (Ahorro de $60.000) </div>
-          <div class="body-text project-card-text"><strong>Pack 10 sesiones:</strong> $750.000 (Ahorro de $150.000) </div>
-        </div>
-        <div class="project-card">
-          <img src="./assets/images/pareja.jpg" class="project-image">
-          <div class="project-card-text-container">
-            <div class="project-title">Terapia de pareja</div>
-            <div class="body-text project-card-text">Fortalecimiento de la relación, comunicación efectiva y resolución
-              de conflictos en pareja.</div>
-          </div>
-          <div class="body-text project-card-text"><strong>1 sesión:</strong> $150.000 </div>
-        </div>
-        <div class="project-card">
-          <img src="./assets/images/familia.jpg" class="project-image">
-          <div class="project-card-text-container">
-            <div class="project-title">Terapia de familia</div>
-            <div class="body-text project-card-text">Enfoque integral para mejorar la dinámica familiar y construir
-              relaciones más saludables.</div>
-          </div>
-          <div class="body-text project-card-text"><strong>1 sesión:</strong> $190.000 </div>
-        </div>
-      </div>
-
-      <!-- MEDIOS DE PAGO SECTION -->
-      <div id="payment-methods-section">
-        <span class="subheader-text">Medios de Pago</span>
-        <div class="body-text">
-          Aceptamos los siguientes medios de pago para tu comodidad:
-        </div>
-        <ul>
-          <li>Efectivo (a partir de la segunda sesión)</li>
-          <li>Tarjeta débito/crédito</li>
-          <li>Nequi</li>
-          <li>Daviplata</li>
-          <li>Transferencia bancaria</li>      
-        </ul>
-        <div class="body-text">
-          Recuerda que el pago se debe realizar antes de cada sesión.
-        </div>
-      </div>
-
-      <!-- PROJECT HEADER -->
-      <div id="project-header">
-        <div class="main-title">El consultorio</div>
-        <div class="body-text">Bienvenido a nuestro cálido y acogedor Consultorio Psicológico, donde la tranquilidad se
-          encuentra con el bienestar emocional. Nuestro espacio está diseñado para ofrecerte un entorno seguro y cómodo
-          durante tu proceso de transformación y crecimiento personal.</div>
-        <image class="project-header-image" src="../assets/images/IMG_1982.jpeg">
-      </div>
-
-      <!-- PROJECT DETAILS -->
-      <div id="project-details">
-
-        <div class="project-details-content">
-          <div class="body-text">En el consultorio, nos esforzamos por ofrecer un entorno propicio para la reflexión y
-            el desarrollo personal.
-            Nuestra meta es crear un espacio donde te sientas respaldado y comprendido en cada etapa de tu camino hacia
-            el equilibrio y la plenitud.</div>
-        </div>
-      </div>
-
-      <!-- IMAGE GALLERY -->
-      <div id="project-gallery">
-
-        <div class="subheader-text">Galería de imágenes</div>
-        <div class="project-gallery-content">
-          <div class="gallery-image-container half-width">
-            <img src="../assets/images/IMG_1986.jpeg" class="gallery-image">
-            <span class="image-caption">Un refugio de serenidad para tu bienestar emocional.</span>
-          </div>
-          <div class="gallery-image-container half-width">
-            <img src="../assets/images/IMG_1965.jpeg" class="gallery-image">
-            <span class="image-caption">Donde la transformación personal encuentra su espacio.</span>
-          </div>
-          <div class="gallery-image-container">
-            <img src="../assets/images/IMG_1983.jpeg" class="gallery-image">
-            <span class="image-caption">Bienvenido a un entorno de apoyo y crecimiento.</span>
+          <div class="payment-note">
+            <strong>Importante:</strong> El pago se realiza antes de cada sesión. *Tarjetas con pequeño incremento por
+            comisión bancaria.
           </div>
         </div>
       </div>
+    </section>
 
-      <br>
-      <div id="project-header">
-        <h2 class="main-title">Ubicación</h2>
-        <div class="body-text">La <a href="https://maps.app.goo.gl/hfbeBVEiHBe1AnJg7" target="_blank"
-            rel="noopener noreferrer">
-            ubicación</a> del consultorio de psicología es en la <strong>Carrera 14 # 14-20</strong> en la ciudad de
-          <strong>Zipaquirá</strong>, Cundinamarca. Colombia.
+    <!-- TESTIMONIALS -->
+    <section id="testimonios" class="section-padding bg-gradient" aria-labelledby="testimonials-title">
+      <div class="container">
+        <h2 id="testimonials-title" class="section-title">Lo que dicen mis pacientes</h2>
+        <p class="section-subtitle">Testimonios reales de personas que han transformado su bienestar emocional</p>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <span class="stars" aria-label="5 estrellas">★★★★★</span>
+            <p class="testimonial-text">
+              Maria Angelica inspira mucha confianza, es muy clara en sus explicaciones, la consulta es muy amena, se
+              genera un ambiente de tranquilidad lo que permite que fluya cada uno de los temas tratados.
+            </p>
+            <p class="testimonial-author">— Laura Ramirez</p>
+          </article>
+
+          <article class="testimonial-card">
+            <span class="stars" aria-label="5 estrellas">★★★★★</span>
+            <p class="testimonial-text">
+              Angélica es una excelente profesional, me hace sentir cómoda y tranquila para expresarme a mi manera, me
+              siento libre de hablar ya que Angelica no demuestra afán y es empática ya que se interesa por lo que me
+              pasa, además es divertida. Asisto de manera individual y también con mi pareja, en este caso ella es
+              imparcial y nos sabe guíar muy bien, en un par de visitas me he sentido mejor a nivel individual y de
+              pareja.
+            </p>
+            <p class="testimonial-author">— Sandra</p>
+          </article>
+
+          <article class="testimonial-card">
+            <span class="stars" aria-label="5 estrellas">★★★★★</span>
+            <p class="testimonial-text">
+              Su orientación y su vocación, definitivamente son su pasión, gracias a sus citas pude atravesar los
+              momentos más turbios de mi vida y salir adelante logrando mis objetivos; sus terapias me ayudaron a salir
+              de mi depresiones y dependencias emocionales. Ahora mi carrera está teniendo un despegue brillante 💖 muy
+              recomendada. 👌
+            </p>
+            <p class="testimonial-author">— Miguel Diaz
+            </p>
+          </article>
         </div>
-        <iframe class="project-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.4570289983053!2d-73.99909212421645!3d5.029379094947157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e406fd9913f625d%3A0x1218d5f154650255!2sCra.%2014%20%2314-20%2C%20Zipaquir%C3%A1%2C%20Cundinamarca!5e0!3m2!1ses-419!2sco!4v1703693152577!5m2!1ses-419!2sco"
-         width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         
-        <!--image class="project-header-image" src="../assets/images/mapa.png" -->
+
+        <div class="text-center" style="margin-top: 30px;">
+          <a href="https://www.doctoralia.co/maria-angelica-galeano-fetecua/psicologo/zipaquira#profile-reviews"
+            target="_blank" rel="noopener" class="button btn-outline">
+            Ver más reseñas en Doctoralia →
+          </a>
+        </div>
       </div>
+    </section>
+
+    <!-- DOCTORALIA WIDGET SECTION -->
+    <section class="section-padding" aria-labelledby="agenda-title">
+      <div class="container">
+        <h2 id="agenda-title" class="section-title">Agenda tu consulta</h2>
+        <p class="section-subtitle">Reserva directamente tu cita desde nuestro calendario online</p>
+
+        <div class="doctoralia-container">
+          <a id="zl-url" class="zl-url"
+            href="https://www.doctoralia.co/maria-angelica-galeano-fetecua/psicologo/zipaquira" rel="nofollow"
+            data-zlw-doctor="maria-angelica-galeano-fetecua" data-zlw-type="big_with_calendar" data-zlw-opinion="false"
+            data-zlw-hide-branding="true" data-zlw-saas-only="true"
+            data-zlw-a11y-title="Widget de reserva de citas médicas">María Angélica Galeano Fetecua - Doctoralia.co</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <section id="ubicacion" class="section-padding bg-light" aria-labelledby="location-title">
+      <div class="container">
+        <h2 id="location-title" class="section-title">El consultorio en Zipaquirá</h2>
+        <p class="section-subtitle">Un espacio cálido, privado y seguro diseñado para tu bienestar emocional</p>
+
+        <div class="location-layout">
+          <div class="location-info">
+            <h3 class="location-subtitle">📍 Dirección y contacto</h3>
+            <address class="address-box">
+              <p><strong>Ubicación:</strong> Carrera 14 # 14-20, Zipaquirá, Cundinamarca, Colombia</p>
+              <p><strong>Email:</strong> <a href="mailto:psicomariangaleano@gmail.com"
+                  class="contact-link">psicomariangaleano@gmail.com</a></p>
+              <p><strong>WhatsApp:</strong> <a href="https://wa.link/uwir3h" target="_blank" rel="noopener"
+                  class="contact-link">+57 300 000 0000</a></p>
+            </address>
+
+            <h3 class="gallery-subtitle">Galería del consultorio</h3>
+            <div class="gallery-grid">
+              <div class="gallery-item" onclick="openLightbox(0)" role="button" tabindex="0"
+                aria-label="Ver imagen 1 del consultorio">
+                <img src="./assets/images/IMG_1986.jpeg" alt="Sala de espera del consultorio psicológico en Zipaquirá"
+                  width="200" height="220" loading="lazy">
+              </div>
+              <div class="gallery-item" onclick="openLightbox(1)" role="button" tabindex="0"
+                aria-label="Ver imagen 2 del consultorio">
+                <img src="./assets/images/IMG_1965.jpeg" alt="Espacio de terapia individual" width="200" height="220"
+                  loading="lazy">
+              </div>
+              <div class="gallery-item" onclick="openLightbox(2)" role="button" tabindex="0"
+                aria-label="Ver imagen 3 del consultorio">
+                <img src="./assets/images/IMG_1983.jpeg" alt="Área de terapia familiar" width="200" height="220"
+                  loading="lazy">
+              </div>
+            </div>
+          </div>
+
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.4570289983053!2d-73.99909212421645!3d5.029379094947157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e406fd9913f625d%3A0x1218d5f154650255!2sCra.%2014%20%2314-20%2C%20Zipaquir%C3%A1%2C%20Cundinamarca!5e0!3m2!1ses-419!2sco!4v1703693152577!5m2!1ses-419!2sco"
+              allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="Mapa de ubicación del consultorio psicológico en Zipaquirá" width="100%" height="450">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="section-padding" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-section">
+          <h2 id="cta-title">¿Listo para dar el primer paso hacia tu bienestar?</h2>
+          <p>Agenda tu primera consulta psicológica y comienza tu proceso de transformación personal hoy mismo</p>
+          <a href="https://calendly.com/psicomariangaleano/agenda-tu-cita" target="_blank" rel="noopener"
+            class="button btn-white btn-large">
+            Agendar mi cita ahora →
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)" role="dialog" aria-modal="true"
+    aria-label="Galería de imágenes del consultorio">
+    <div class="lightbox-content">
+      <button class="lightbox-close" onclick="closeLightbox(event)" aria-label="Cerrar galería">✕ Cerrar</button>
+      <button class="lightbox-nav lightbox-prev" onclick="changeImage(-1, event)"
+        aria-label="Imagen anterior">‹</button>
+      <img src="" alt="Imagen del consultorio" class="lightbox-img" id="lightbox-img">
+      <button class="lightbox-nav lightbox-next" onclick="changeImage(1, event)"
+        aria-label="Imagen siguiente">›</button>
     </div>
   </div>
 
-  <!-- Social Media -->
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://www.facebook.com/Psicomariangaleano" target="_blank" rel="noopener" class="social-icon"
+            aria-label="Facebook">
+            <img src="./assets/icons/facebook.svg" alt="" width="20" height="20">
+          </a>
+          <a href="https://www.instagram.com/psicomariangaleano/" target="_blank" rel="noopener" class="social-icon"
+            aria-label="Instagram">
+            <img src="./assets/icons/instagram.svg" alt="" width="20" height="20">
+          </a>
+          <a href="https://wa.link/uwir3h" target="_blank" rel="noopener" class="social-icon" aria-label="WhatsApp">
+            <img src="./assets/icons/wa256.svg" alt="" width="20" height="20">
+          </a>
+          <a href="mailto:psicomariangaleano@gmail.com" class="social-icon" aria-label="Email">
+            <img src="./assets/icons/mail.svg" alt="" width="20" height="20">
+          </a>
+        </div>
 
-  <div id="footer">
-
-    <a class="icon-link" target="_blank" href="https://www.facebook.com/Psicomariangaleano">
-      <image src="./assets/icons/facebook.svg" class="footer-icon-facebook" />
-    </a>
-
-
-    <a class="icon-link" target="_blank" href="https://www.instagram.com/psicomariangaleano/">
-      <image src="./assets/icons/instagram.svg" class="footer-icon" />
-    </a>
-
-
-    <a class="icon-link" target="_blank" href="https://wa.link/uwir3h">
-      <image src="./assets/icons/wa256.svg" class="footer-icon" />
-    </a>
-
-
-    <a class="icon-link" href="mailto:psicomariangaleano@gmail.com">
-      <image src="./assets/icons/mail.svg" class="footer-icon" />
-    </a>
-
-  </div>
-
-  <!-- Footer -->
-  <footer id="footer">
-    <div class="developer-info">
-      <p class="footer">&copy; 2025 | Desarrollado por <a href="https://www.linkedin.com/in/sebastianfrasic/"
-          target="_blank">Juan Sebastián Frásica</a></p>
+        <div class="footer-text">
+          <p>&copy; 2026 María Angélica Galeano | Psicóloga clínica en Zipaquirá</p>
+          <p>Desarrollado por <a href="https://www.linkedin.com/in/sebastianfrasic/" target="_blank" rel="noopener">Juan
+              Sebastián Frásica</a></p>
+        </div>
+      </div>
     </div>
   </footer>
 
-
-
+  <!-- SCRIPTS -->
+  <script src="./js/script.js"></script>
+  <script>!function ($_x, _s, id) { var js, fjs = $_x.getElementsByTagName(_s)[0]; if (!$_x.getElementById(id)) { js = $_x.createElement(_s); js.id = id; js.src = "//platform.docplanner.com/js/widget.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "zl-widget-s");</script>
 
 </body>
 

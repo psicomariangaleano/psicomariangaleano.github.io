@@ -6,7 +6,6 @@
     /* Colors - Brand Palette */
     --primary-color: #D81B60;
     --primary-light: #F06292;
-    --primary-dark: #AD1457;
     --secondary-color: #FF6F00;
     --accent-color: #FFC107;
     
@@ -29,7 +28,6 @@
     --spacing-sm: 16px;
     --spacing-md: 24px;
     --spacing-lg: 40px;
-    --spacing-xl: 60px;
     --spacing-xxl: 80px;
     
     /* Typography */
@@ -39,7 +37,6 @@
     --font-size-base: 1rem;
     --font-size-md: 1.05rem;
     --font-size-lg: 1.25rem;
-    --font-size-xl: 1.5rem;
     --font-size-2xl: 2rem;
     --font-size-3xl: 2.8rem;
     
@@ -67,26 +64,12 @@
     /* Transitions */
     --transition-fast: 0.15s ease;
     --transition-base: 0.3s ease;
-    --transition-slow: 0.5s ease;
     
     /* Z-index Scale */
-    --z-index-dropdown: 100;
-    --z-index-sticky: 500;
     --z-index-fixed: 1000;
-    --z-index-modal: 5000;
     --z-index-popover: 9000;
-    --z-index-tooltip: 9999;
     
     /* Container */
     --container-max-width: 1200px;
   }
   
-  /* Dark Mode Support (futuro) */
-  @media (prefers-color-scheme: dark) {
-    :root {
-      /* Uncomment when implementing dark mode */
-      /* --dark-text: #E0E0E0; */
-      /* --light-text: #B0B0B0; */
-      /* --bg-light: #1E1E1E; */
-    }
-  }

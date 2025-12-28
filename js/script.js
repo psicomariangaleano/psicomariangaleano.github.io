@@ -89,12 +89,15 @@ document.addEventListener('keydown', function(event) {
   if (lightbox && lightbox.classList.contains('active')) {
     switch(event.key) {
       case 'Escape':
+        event.preventDefault();
         closeLightbox({ target: lightbox });
         break;
       case 'ArrowLeft':
+        event.preventDefault();
         changeImage(-1, event);
         break;
       case 'ArrowRight':
+        event.preventDefault();
         changeImage(1, event);
         break;
     }
@@ -134,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Add keyboard accessibility to gallery items
   document.querySelectorAll('.gallery-item').forEach((item, index) => {
-    item.addEventListener('keypress', function(e) {
+    item.addEventListener('keydown', function(e) {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
         openLightbox(index);

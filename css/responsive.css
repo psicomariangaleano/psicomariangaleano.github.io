@@ -1,0 +1,254 @@
+/* ===================================
+   RESPONSIVE DESIGN
+   =================================== */
+
+/* Desktop Navigation */
+@media (min-width: 900px) {
+    .nav-links {
+      display: flex;
+    }
+    
+    .hero-layout {
+      flex-direction: row;
+      gap: 80px;
+    }
+    
+    .hero-text-container {
+      flex: 1;
+    }
+    
+    .hero-image-container {
+      flex: 1;
+    }
+    
+    .location-layout {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  /* Tablet Breakpoint */
+  @media (max-width: 900px) {
+    .section-padding {
+      padding: 60px 0;
+    }
+    
+    .main-title {
+      font-size: 2.2rem;
+    }
+    
+    .section-title {
+      font-size: 1.8rem;
+    }
+    
+    .hero-layout {
+      gap: 40px;
+    }
+    
+    .services-grid {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    
+    .countries-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* Mobile Breakpoint */
+  @media (max-width: 768px) {
+    :root {
+      --font-size-3xl: 2rem;
+      --font-size-2xl: 1.6rem;
+      --spacing-xxl: 50px;
+    }
+    
+    .container {
+      padding: 0 var(--spacing-sm);
+    }
+    
+    .navbar-content {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+    
+    .nav-brand {
+      order: 1;
+      width: 100%;
+      justify-content: center;
+    }
+    
+    .nav-links {
+      order: 2;
+      width: 100%;
+      justify-content: center;
+      display: none; /* Ocultar en móvil por defecto */
+    }
+    
+    .button {
+      order: 3;
+    }
+    
+    .hero-section {
+      margin-top: 120px;
+    }
+    
+    .hero-badges {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .badge {
+      width: 100%;
+    }
+    
+    .services-grid {
+      grid-template-columns: 1fr;
+      gap: 25px;
+    }
+    
+    .countries-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .testimonials-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .gallery-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .gallery-item {
+      height: 280px;
+    }
+    
+    .payment-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .lightbox-nav {
+      padding: 10px 15px;
+      font-size: 1.2rem;
+    }
+    
+    .lightbox-prev {
+      left: 10px;
+    }
+    
+    .lightbox-next {
+      right: 10px;
+    }
+    
+    .cta-section {
+      padding: 40px 25px;
+    }
+    
+    .cta-section h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Small Mobile Breakpoint */
+  @media (max-width: 480px) {
+    .main-title {
+      font-size: 1.8rem;
+    }
+    
+    .section-title {
+      font-size: 1.5rem;
+    }
+    
+    .body-text {
+      font-size: var(--font-size-base);
+    }
+    
+    .countries-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .hero-image {
+      box-shadow: 15px 15px 0 rgba(216, 27, 96, 0.2);
+    }
+    
+    .button {
+      padding: 10px 20px;
+      font-size: var(--font-size-xs);
+    }
+    
+    .btn-large {
+      padding: 14px 28px;
+      font-size: var(--font-size-base);
+    }
+  }
+  
+  /* Print Styles */
+  @media print {
+    .navbar,
+    .footer,
+    .button,
+    .lightbox,
+    .hero-badges {
+      display: none !important;
+    }
+    
+    body {
+      background: white;
+    }
+    
+    .section-padding {
+      padding: 20px 0;
+    }
+    
+    .service-card,
+    .testimonial-card {
+      box-shadow: none;
+      border: 1px solid #ddd;
+      page-break-inside: avoid;
+    }
+  }
+  
+  /* Accessibility & Motion Preferences */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  /* High Contrast Mode */
+  @media (prefers-contrast: high) {
+    body {
+      color: var(--black);
+    }
+    
+    .body-text,
+    .testimonial-text {
+      color: var(--black);
+    }
+    
+    .main-title,
+    .section-title {
+      color: var(--black);
+    }
+    
+    .button {
+      border-width: 3px;
+    }
+  }
+  
+  /* Landscape Mobile */
+  @media (max-width: 900px) and (orientation: landscape) {
+    .hero-section {
+      margin-top: 100px;
+    }
+    
+    .section-padding {
+      padding: 50px 0;
+    }
+    
+    .gallery-item {
+      height: 200px;
+    }
+  }

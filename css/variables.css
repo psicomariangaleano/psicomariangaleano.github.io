@@ -1,0 +1,92 @@
+/* ===================================
+   CSS VARIABLES
+   =================================== */
+
+   :root {
+    /* Colors - Brand Palette */
+    --primary-color: #D81B60;
+    --primary-light: #F06292;
+    --primary-dark: #AD1457;
+    --secondary-color: #FF6F00;
+    --accent-color: #FFC107;
+    
+    /* Grayscale */
+    --dark-text: #37474F;
+    --light-text: #78909C;
+    --white: #ffffff;
+    --black: #000000;
+    
+    /* Backgrounds */
+    --bg-light: #FFF0F5;
+    --bg-gradient: linear-gradient(135deg, #FCE4EC 0%, #FFF3E0 100%);
+    
+    /* Gradients */
+    --gradient-warm: linear-gradient(135deg, #D81B60 0%, #EC407A 50%, #FF6F00 100%);
+    --gradient-soft: linear-gradient(135deg, #FCE4EC 0%, #F8BBD0 100%);
+    
+    /* Spacing */
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 40px;
+    --spacing-xl: 60px;
+    --spacing-xxl: 80px;
+    
+    /* Typography */
+    --font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-md: 1.05rem;
+    --font-size-lg: 1.25rem;
+    --font-size-xl: 1.5rem;
+    --font-size-2xl: 2rem;
+    --font-size-3xl: 2.8rem;
+    
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.6;
+    --line-height-relaxed: 1.7;
+    
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-full: 50px;
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 30px rgba(216, 27, 96, 0.2);
+    --shadow-xl: 0 12px 40px rgba(216, 27, 96, 0.3);
+    
+    /* Transitions */
+    --transition-fast: 0.15s ease;
+    --transition-base: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    
+    /* Z-index Scale */
+    --z-index-dropdown: 100;
+    --z-index-sticky: 500;
+    --z-index-fixed: 1000;
+    --z-index-modal: 5000;
+    --z-index-popover: 9000;
+    --z-index-tooltip: 9999;
+    
+    /* Container */
+    --container-max-width: 1200px;
+  }
+  
+  /* Dark Mode Support (futuro) */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      /* Uncomment when implementing dark mode */
+      /* --dark-text: #E0E0E0; */
+      /* --light-text: #B0B0B0; */
+      /* --bg-light: #1E1E1E; */
+    }
+  }

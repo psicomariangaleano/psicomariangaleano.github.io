@@ -1,0 +1,100 @@
+:root {
+    --primary: #2C5F6D;
+    --dark: #1A1A1A;
+    --bg-footer: #F1F3F4; /* Color gris suave para el footer */
+    --white: #ffffff;
+  }
+  
+  /* ... (Estilos generales del paso anterior) ... */
+  
+  /* CORRECCIÓN ICONOS REDES SOCIALES */
+  .social-icons-group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      margin: 20px 0;
+  }
+  
+  .social-icons-group img {
+      width: 32px; /* Tamaño unificado */
+      height: 32px; /* Tamaño unificado */
+      object-fit: contain;
+      transition: transform 0.3s ease;
+  }
+  
+  .social-icons-group img:hover {
+      transform: scale(1.2);
+  }
+  
+  /* FOOTER PERSONALIZADO */
+  .footer-optimized {
+      background-color: var(--bg-footer);
+      padding: 50px 0 30px;
+      text-align: center;
+      border-top: 1px solid #e0e0e0;
+  }
+  
+  .social-headline {
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: var(--dark);
+  }
+  
+  .footer-credits {
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 20px;
+  }
+  
+  /* BANDERAS Y BADGE VIRTUAL */
+  .virtual-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #eef4f5;
+      padding: 8px 16px;
+      border-radius: 50px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--primary);
+  }
+  
+  .flag-icon {
+      width: 20px;
+      height: auto;
+  }
+  
+  /* PRECIOS PACKS */
+  .pricing-list {
+      margin-top: 15px;
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+  }
+  
+  .price-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+      font-size: 0.9rem;
+  }
+  
+  .save {
+      color: #27ae60;
+      font-weight: 700;
+  }
+  
+  /* GALERÍA */
+  .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 15px;
+  }
+  
+  .gallery-grid img {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+  }

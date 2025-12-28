@@ -1,2 +1,28 @@
+# robots.txt para www.psicomariangaleano.com
+
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap
+Sitemap: https://www.psicomariangaleano.com/sitemap.xml
+
+# Bloquear archivos innecesarios para SEO
+Disallow: /css/
+Disallow: /js/
+Disallow: /assets/fonts/
+
+# Permitir imágenes para Google Images
+Allow: /assets/images/
+
+# Crawl-delay (opcional, para evitar sobrecarga)
+# Crawl-delay: 1
+
+# User-agents específicos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+User-agent: Bingbot
+Allow: /

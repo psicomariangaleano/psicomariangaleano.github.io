@@ -9,6 +9,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: var(--font-family-heading);
   font-weight: var(--font-weight-bold);
   margin-bottom: 1rem;
   color: var(--dark-text);
@@ -28,12 +29,12 @@ h6 {
 
 .section-title {
   font-size: var(--font-size-2xl);
-  text-align: center;
+  text-align: left;
   color: var(--dark-text);
 }
 
 .section-subtitle {
-  text-align: center;
+  text-align: left;
   color: var(--light-text);
   margin-bottom: 3rem;
   font-size: var(--font-size-md);
@@ -77,11 +78,9 @@ a {
 /* Navigation */
 .nav-title {
   font-size: 1.3rem;
+  font-family: var(--font-family-heading);
   font-weight: var(--font-weight-bold);
-  background: var(--gradient-warm);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--primary-color);
 }
 
 .nav-item {
@@ -195,7 +194,7 @@ a {
 /* Country Items */
 .countries-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(7, 1fr);
   gap: var(--spacing-sm);
   margin-top: var(--spacing-md);
 }
@@ -245,7 +244,7 @@ a {
   background: var(--white);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
-  border-left: 4px solid var(--primary-color);
+  border-left: none;
 }
 
 .benefit-list li:before {
@@ -342,7 +341,7 @@ a {
 
 .savings-badge {
   display: inline-block;
-  background: #4CAF50;
+  background: #2E7D32;
   color: var(--white);
   padding: 4px 10px;
   border-radius: var(--radius-full);
@@ -393,6 +392,43 @@ a {
   box-shadow: var(--shadow-md);
   position: relative;
   border-left: 5px solid var(--primary-color);
+}
+
+.review-sources {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.review-source {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  min-height: 180px;
+  padding: var(--spacing-md);
+  background: var(--white);
+  border: 1px solid rgba(55, 71, 79, 0.18);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.review-source-label {
+  font-family: var(--font-family-heading);
+  font-size: 1.4rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--dark-text);
+}
+
+.review-source-link {
+  margin-top: auto;
+  color: var(--primary-color);
+  font-weight: var(--font-weight-bold);
+}
+
+.review-source:hover .review-source-link {
+  text-decoration: underline;
 }
 
 .stars {

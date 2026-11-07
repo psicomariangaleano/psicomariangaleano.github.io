@@ -63,6 +63,11 @@ a {
   font-weight: var(--font-weight-bold);
 }
 
+.services-text-link {
+  display: inline-block;
+  margin: 14px 0 0 12px;
+}
+
 .text-link:hover {
   text-decoration: underline;
 }

@@ -663,6 +663,13 @@ a {
   opacity: 0.95;
 }
 
+.cta-whatsapp-link {
+  color: var(--white);
+  font-weight: var(--font-weight-bold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* Footer */
 .social-icon {
   width: 40px;

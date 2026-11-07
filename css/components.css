@@ -40,6 +40,17 @@ h6 {
   font-size: var(--font-size-md);
 }
 
+.booking-details {
+  max-width: 800px;
+  margin: 0 0 var(--spacing-lg);
+  color: var(--dark-text);
+  line-height: var(--line-height-relaxed);
+}
+
+.booking-details p {
+  margin-bottom: var(--spacing-sm);
+}
+
 .body-text {
   font-size: var(--font-size-md);
   line-height: var(--line-height-relaxed);

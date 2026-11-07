@@ -316,6 +316,14 @@ a {
   flex-grow: 1;
 }
 
+.service-card-family .service-desc {
+  flex-grow: 0;
+}
+
+.service-card-family .pricing-list {
+  margin: auto 0;
+}
+
 /* Pricing */
 .pricing-list {
   background: var(--bg-light);
